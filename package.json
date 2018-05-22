@@ -4,6 +4,7 @@
   "description": "![cf](http://i.imgur.com/7v5ASc8.png) 27: Reddit Search Engine ===",
   "main": "index.js",
   "scripts": {
+    "watch": "webpack-dev-server --config webpack.dev.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
