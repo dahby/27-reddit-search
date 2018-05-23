@@ -43,7 +43,7 @@ class SearchForm extends React.Component {
           type = 'number'
           name = 'limitResults'
           placeholder = 'Limit results'
-          value = { this.status.searchFormLimit }
+          value = { this.state.searchFormLimit }
           onChange = { this.handleSearchFormLimitChange }
           min = '0'
           max = '100'
@@ -85,8 +85,6 @@ class App extends React.Component {
     super(props);
     this.state = {
       resultList: [],
-      // subredditSelected: null,
-      // subredditNameError: null,
     };
     this.searchReddit = this.searchReddit.bind(this);
   }
