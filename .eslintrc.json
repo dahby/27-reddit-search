@@ -6,6 +6,7 @@
   "parser": "babel-eslint",
   "plugins": ["jest","react"],
   "rules": {
+    "react/prop-types": "off",
     "arrow-body-style": "off",
     "class-methods-use-this": "off",
     "global-require": "off",

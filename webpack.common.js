@@ -36,6 +36,7 @@ webpackConfig.module.rules = [
       options: {
         presets: ['env', 'stage-0', 'react'],
         plugins: ['transform-react-jsx-source'],
+        cacheDirectory: true,
       },
     },
   },

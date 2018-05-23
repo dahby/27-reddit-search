@@ -17,6 +17,11 @@ webpackDevConfig.devServer = {
 };
 
 webpackDevConfig.plugins = [
+  new HotModuleReplacementPlugin(),
+]
+
+webpackDevConfig.module = {};
+webpackDevConfig.module.rules = [
   {
     test: /\.scss$/,
     use: [
